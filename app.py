@@ -27,7 +27,7 @@ def callout():
         else:
             engine.setProperty('rate', 180)
         engine.setProperty('volume', 1.0)
-        # engine.say(phrase)
+        engine.say(phrase)
         engine.runAndWait()
     except RuntimeError:
         pass
