@@ -1,5 +1,5 @@
 import time
-from flask import Flask, render_template,request
+from flask import Flask,request
 import os
 import secrets
 import platform
